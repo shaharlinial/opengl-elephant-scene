@@ -2,10 +2,10 @@
 #include <windows.h>
 #include <iostream>
 #include <fstream>
-#include "imGui/imgui.h"
-#include "imGui/imgui_impl_freeglut.h"
-#include "imGui/imgui_impl_opengl2.h"
-#include <GL/freeglut.h>
+#include "../ThirdParty/include/imgui/imgui.h"
+#include "../ThirdParty/include/imgui/imgui_impl_freeglut.h"
+#include "../ThirdParty/include/imgui/imgui_impl_opengl2.h"
+#include "../ThirdParty/include/GL/freeglut.h"
 // include all graphical object used
 #include "Camera.h"
 #include "PLight.h"
