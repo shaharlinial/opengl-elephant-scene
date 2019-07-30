@@ -1,6 +1,0 @@
-﻿  Main.cpp
-c:\users\shaharlinial\source\repos\mmn17\mmn17\main.cpp(34): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
-c:\users\shaharlinial\source\repos\mmn17\mmn17\main.cpp(307): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  mmn17.vcxproj -> C:\Users\shaharlinial\source\repos\mmn17\Debug\mmn17.exe
-  File not found - *.dll
-  0 File(s) copied
