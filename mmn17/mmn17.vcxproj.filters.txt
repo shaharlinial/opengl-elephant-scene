@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Assests">
+      <UniqueIdentifier>{5e934386-41b9-4492-a814-95de03a2a4e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{2d5e69bc-3b6d-42ce-9e17-cabc14ddb3f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\imGui">
+      <UniqueIdentifier>{e678c1dc-5b6a-45a5-ae8a-059a322bab48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Graphics">
+      <UniqueIdentifier>{6a364790-9ec6-4f75-bf3a-f997503fdf55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Graphics\imGui">
+      <UniqueIdentifier>{b4c0b712-f005-4916-966e-78fbbdff477f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GL">
+      <UniqueIdentifier>{8191e320-dd33-47e1-bc79-9a6799e5a4f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ThirdParty">
+      <UniqueIdentifier>{2fe47d9c-835c-474d-a426-0359b9384d4a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\include\imgui\imgui_widgets.cpp">
+      <Filter>Resource Files\Graphics\imGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\include\imgui\imgui_impl_opengl2.cpp">
+      <Filter>Resource Files\Graphics\imGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\include\imgui\imgui_impl_freeglut.cpp">
+      <Filter>Resource Files\Graphics\imGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\include\imgui\imgui_draw.cpp">
+      <Filter>Resource Files\Graphics\imGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\include\imgui\imgui_demo.cpp">
+      <Filter>Resource Files\Graphics\imGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\include\imgui\imgui.cpp">
+      <Filter>Resource Files\Graphics\imGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Resource Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="PLight.cpp">
+      <Filter>Resource Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Elephant.cpp">
+      <Filter>Resource Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="MozFloor.cpp">
+      <Filter>Resource Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Walls.cpp">
+      <Filter>Resource Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SLight.cpp">
+      <Filter>Resource Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Teapot.cpp">
+      <Filter>Resource Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Resource Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>Resource Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="texelLoader.cpp">
+      <Filter>Resource Files\Graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ThirdParty\include\GL\freeglut.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\include\GL\freeglut_ext.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\include\GL\freeglut_std.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\include\GL\glut.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\include\imgui\imconfig.h">
+      <Filter>Header Files\Graphics\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\include\imgui\imgui.h">
+      <Filter>Header Files\Graphics\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\include\imgui\imgui_impl_freeglut.h">
+      <Filter>Header Files\Graphics\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\include\imgui\imgui_impl_opengl2.h">
+      <Filter>Header Files\Graphics\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\include\imgui\imgui_internal.h">
+      <Filter>Header Files\Graphics\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\include\imgui\imstb_rectpack.h">
+      <Filter>Header Files\Graphics\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\include\imgui\imstb_truetype.h">
+      <Filter>Header Files\Graphics\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\include\imgui\imstb_textedit.h">
+      <Filter>Header Files\Graphics\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\include\imgui\stb_textedit.h">
+      <Filter>Header Files\Graphics\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\include\imgui\stb_rect_pack.h">
+      <Filter>Header Files\Graphics\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\include\imgui\stb_truetype.h">
+      <Filter>Header Files\Graphics\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="PLight.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Elephant.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="MozFloor.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Walls.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SLight.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Teapot.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="texelLoader.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Assests\Azulejos_005_height.png">
+      <Filter>Source Files\Assests</Filter>
+    </Image>
+    <Image Include="..\Assests\Azulejos.jpg">
+      <Filter>Source Files\Assests</Filter>
+    </Image>
+    <Image Include="..\Assests\Azulejos.bmp">
+      <Filter>Source Files\Assests</Filter>
+    </Image>
+    <Image Include="..\Assests\AzulejosHeight.bmp">
+      <Filter>Source Files\Assests</Filter>
+    </Image>
+    <Image Include="..\Assests\Portuguese_Floor_001_DISP.bmp">
+      <Filter>Source Files\Assests</Filter>
+    </Image>
+    <Image Include="..\Assests\Portuguese_Floor_001_DISP.png">
+      <Filter>Source Files\Assests</Filter>
+    </Image>
+    <Image Include="..\Assests\Wood_planks_012_basecolor.bmp">
+      <Filter>Source Files\Assests</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
